@@ -1,0 +1,31 @@
+.image-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    list-style-type: none;
+}
+
+
+.image-name {
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: grey;
+    font-size: 14px;
+}
+
+.image-image {
+    display: block;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 350px;
+}
+
+@media (max-width: 768px) {
+    .image-item > .image-image {
+        width: 400px;
+        height: 250px;
+    }
+
+}
+

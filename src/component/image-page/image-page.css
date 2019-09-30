@@ -1,0 +1,6 @@
+.image-items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
